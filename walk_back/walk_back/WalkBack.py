@@ -57,7 +57,6 @@ class WalkBack(Node):
         for cycle in range(self.pose.frame_duration[0]):
             data = self.calc_frame(frame, self.pose.frame[0], self.pose.frame_duration[0], cycle)
             sleep(self.wait_time)
-            print(data)
             self.publish_pose(data)
         # Нужно взять начальную позицию и перейти из нее в фрейм 0. Подправить функцию чтения позы.
 

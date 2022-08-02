@@ -23,9 +23,9 @@ ros2 run nao_lola nao_lola
 Возвращаемся в терминал с репозиторием ходьбы и пишем такой код:
 
 ```
-colcon build --packages_select walk_back
+colcon build --packages-select walk_back
 source /opt/ros/galactic/setup.bash
-. install.setup.bash
+. install/setup.bash
 ros2 run walk_back walk_back
 ```
 

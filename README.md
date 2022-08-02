@@ -8,7 +8,8 @@ A node for webots.
 # How to install
 cd ~/dev_ws
 
-git clone https://github.com/Starkit-SPL/pose_design.git src/walk_forward
+it clone https://github.com/Starkit-SPL/Walk/tree/main src/walk_forward
+git checkout Walk_back
 
 colcon build --packages-select walk_forward
 
